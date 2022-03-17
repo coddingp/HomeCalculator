@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
     fun clearClick(view: View) {
         clearCache()
-        updateDisplay("");
+        updateDisplay("")
     }
 
     fun equalsClick(view: View) {
@@ -81,10 +81,10 @@ class MainActivity : AppCompatActivity() {
 
     fun numberClick(view: View) {
         val button = view as Button
-        val numberString = button.text;
+        val numberString = button.text
 
         numberCache.add(numberString.toString())
-        val text = makeString(numberCache);
+        val text = makeString(numberCache)
         updateDisplay(text)
     }
 
